@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 300px;
+    border: 2px solid red;
+}
+
+.big_img {
+    background: url('./big.jpeg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.small_img {
+    background: url('./small.jpeg');
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-position: bottom;
+    background-position: right;
+    background-position: left;
+    background-position: top;
+    background-position: top right;
+    background-position: bottom right;
+    background-position: bottom left;
+    background-position: 50% 20%;
+    background-position: 100% 100%;
+    background-position:  0  100%;
+
+    /* by default */
+    background-position:  0 0 ;
+
+}
+
+.folder_img {
+    background: url('./images/folder-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

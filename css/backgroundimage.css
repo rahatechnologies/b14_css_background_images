@@ -1,18 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 div{
     height: 300px;
 
+    border: 2px solid red;
 }
 
 .big_img{
     background: url('./../big.jpeg');
+    /* background-repeat: round; */
+    background-repeat: no-repeat;
+
+    /*  by default  */
+    /* background-size: auto; */
+
+    background-size: 100%;
+    background-size: cover;
+
 }
 
 
 
 .small_img{
     background: url('./../small.jpeg');
+
+    /* by default property */
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat;
+    
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round;
+     */
+
+     /* background-repeat: no-repeat; */
+    /* background-size: contain;
+    background-size: cover; */
+
+
 }
 
 .folder_img{
     background: url('./../images/folder-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
